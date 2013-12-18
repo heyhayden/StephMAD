@@ -7,7 +7,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
-
+#import "MADAnnotation.h"
 
 @interface Map_ViewController : UIViewController
 <CLLocationManagerDelegate, MKMapViewDelegate >

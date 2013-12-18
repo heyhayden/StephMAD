@@ -141,14 +141,21 @@
             
             randomNum = arc4random() % 10;
             turns = 0;
+            
+            [self->guessField resignFirstResponder];
         }
         else
         {
             
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"you did not enter a guess!" message:nil delegate:self cancelButtonTitle:@"try again" otherButtonTitles:nil, nil];
             [alert show];
+            
+            [self->guessField resignFirstResponder];
         }
-    }}
+  
+    }
+
+}
 
 @end
 

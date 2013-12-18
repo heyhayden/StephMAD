@@ -123,7 +123,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="enterGuess:" destination="rk2-1x-NZp" eventType="editingDidEnd" id="dwc-mT-XQK"/>
+                                    <action selector="enterGuess:" destination="rk2-1x-NZp" eventType="editingDidEnd" id="pNg-dC-cy1"/>
                                 </connections>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="4129-pokemon-pokeball.png" id="CCp-NF-d6N">
@@ -149,10 +149,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mSB-Ws-cx2"/>
+                    <navigationItem key="navigationItem" id="mSB-Ws-cx2">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="cwh-ta-nUV"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="guessField" destination="v4u-1Z-uTF" id="9J3-jV-6Im"/>
-                        <outlet property="image" destination="CCp-NF-d6N" id="ewr-z5-OJT"/>
+                        <outlet property="image" destination="CCp-NF-d6N" id="9bj-NP-UaZ"/>
                         <outlet property="playAgain" destination="lKE-rT-9V8" id="h1K-XH-1t2"/>
                         <outlet property="resultLabel" destination="bQ5-eP-cIx" id="6eh-MR-rZs"/>
                     </connections>

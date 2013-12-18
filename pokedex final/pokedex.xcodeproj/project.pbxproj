@@ -52,7 +52,7 @@
 		23DDF1451861F9D5002EEFEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DDF1441861F9D5002EEFEA /* CoreLocation.framework */; };
 		23DDF1481861FB43002EEFEA /* Map ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DDF1471861FB43002EEFEA /* Map ViewController.m */; };
 		23DDF14B1862026A002EEFEA /* MADAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DDF14A1862026A002EEFEA /* MADAnnotation.m */; };
-		23DDF14D18620764002EEFEA /* annotations1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF14C18620763002EEFEA /* annotations1.plist */; };
+		23DDF14D18620764002EEFEA /* PokeLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF14C18620763002EEFEA /* PokeLocations.plist */; };
 		23DDF14F18621C8F002EEFEA /* pokeballsmall2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF14E18621C8F002EEFEA /* pokeballsmall2.png */; };
 /* End PBXBuildFile section */
 
@@ -112,7 +112,7 @@
 		23DDF1471861FB43002EEFEA /* Map ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Map ViewController.m"; sourceTree = "<group>"; };
 		23DDF1491862026A002EEFEA /* MADAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADAnnotation.h; sourceTree = "<group>"; };
 		23DDF14A1862026A002EEFEA /* MADAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADAnnotation.m; sourceTree = "<group>"; };
-		23DDF14C18620763002EEFEA /* annotations1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = annotations1.plist; sourceTree = "<group>"; };
+		23DDF14C18620763002EEFEA /* PokeLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PokeLocations.plist; sourceTree = "<group>"; };
 		23DDF14E18621C8F002EEFEA /* pokeballsmall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokeballsmall2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,7 +171,7 @@
 				23DDF1471861FB43002EEFEA /* Map ViewController.m */,
 				23DDF1491862026A002EEFEA /* MADAnnotation.h */,
 				23DDF14A1862026A002EEFEA /* MADAnnotation.m */,
-				23DDF14C18620763002EEFEA /* annotations1.plist */,
+				23DDF14C18620763002EEFEA /* PokeLocations.plist */,
 				23B71096184DBAA90013AB6C /* MADViewController.h */,
 				23B71097184DBAA90013AB6C /* MADViewController.m */,
 				23B710A0184DBBA40013AB6C /* PokeDetailViewController.h */,
@@ -311,7 +311,7 @@
 				23DDF13D1861F88F002EEFEA /* pin-map-icon-2-614x460-1.png in Resources */,
 				23DDF13F1861F99D002EEFEA /* pokeballsmall.png in Resources */,
 				23DDF1411861F9A5002EEFEA /* pokeballlarge.png in Resources */,
-				23DDF14D18620764002EEFEA /* annotations1.plist in Resources */,
+				23DDF14D18620764002EEFEA /* PokeLocations.plist in Resources */,
 				23DDF14F18621C8F002EEFEA /* pokeballsmall2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

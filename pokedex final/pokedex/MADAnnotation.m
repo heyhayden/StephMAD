@@ -12,6 +12,7 @@
 
 @synthesize coordinate, title, subtitle, leftCalloutAccessoryView;
 
+
 -(id)initWithCoordinate:(CLLocationCoordinate2D)coor{ coordinate=coor;
     title=@"You are here";
     subtitle=[NSString stringWithFormat:@"Latitude: %f. Longitude: %f", coordinate.latitude, coordinate.longitude]; return self;

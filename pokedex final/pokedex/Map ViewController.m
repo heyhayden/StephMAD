@@ -39,10 +39,11 @@
 #define BLASTOISE_LONGITUDE -105.26594160000002;
 
 
-#define THE_SPAN 0.20f;
+#define THE_SPAN 0.05f;
 
 @implementation Map_ViewController
 {
+    
 CLLocationManager *locationManager;
 MADAnnotation *annotation;
 
@@ -120,6 +121,8 @@ MADAnnotation *annotation;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
    
     
@@ -172,9 +175,7 @@ MADAnnotation *annotation;
     annotationView.annotation = annotation1;
     
     return annotationView;
-    
-    
-}
+  }
 
 
 @end
