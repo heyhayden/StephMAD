@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PokeLocations</key>
+    <array>
+        <dict>
+            <key>Title</key>
+            <string>#004 Charmander</string>
+            <key>Subtitle</key>
+            <string>Fire Type</string>
+            <key>Latitude</key>
+            <string>40.0078429</string>
+            <key>Longitude</key>
+            <string>-105.26966709999999	</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>#005 Charmeleon</string>
+            <key>Subtitle</key>
+            <string>Fire Type</string>
+            <key>Latitude</key>
+            <string>40.0104104</string>
+            <key>Longitude</key>
+            <string>-105.28965619999997</string>
+        </dict>
+         <dict>
+            <key>Title</key>
+            <string>#006 Charizard</string>
+            <key>Subtitle</key>
+            <string>Fire/Flying Type</string>
+            <key>Latitude</key>
+            <string>40.0064377	</string>
+            <key>Longitude</key>
+            <string>-105.27301119999998	</string>
+        </dict>
+         <dict>
+            <key>Title</key>
+            <string>#001 Bulbasaur</string>
+            <key>Subtitle</key>
+            <string>Grass/Poison Type</string>
+            <key>Latitude</key>
+            <string>40.0096216</string>
+            <key>Longitude</key>
+            <string>-105.27282120000001	</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>#002 Ivysaur</string>
+            <key>Subtitle</key>
+            <string>Grass/Poison Type</string>
+            <key>Latitude</key>
+            <string>40.0108876</string>
+            <key>Longitude</key>
+            <string>-105.27389820000002	</string>
+        </dict>
+         <dict>
+            <key>Title</key>
+            <string>#003 Venusaur</string>
+            <key>Subtitle</key>
+            <string>Grass/Poison Type</string>
+            <key>Latitude</key>
+            <string>40.0079411</string>
+            <key>Longitude</key>
+            <string>-105.27507350000002	</string>
+        </dict>
+         <dict>
+            <key>Title</key>
+            <string>#007 Squirtle</string>
+            <key>Subtitle</key>
+            <string>Water Type</string>
+            <key>Latitude</key>
+            <string>40.0043601</string>
+            <key>Longitude</key>
+            <string>-105.26956860000001	</string>
+        </dict>
+         <dict>
+            <key>Title</key>
+            <string>#008 Wartortle</string>
+            <key>Subtitle</key>
+            <string>Water Type</string>
+            <key>Latitude</key>
+            <string>40.0104961</string>
+            <key>Longitude</key>
+            <string>-105.26633140000001</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>#009 Blastoise</string>
+            <key>Subtitle</key>
+            <string>Water Type</string>
+            <key>Latitude</key>
+            <string>40.0104961</string>
+            <key>Longitude</key>
+            <string>-105.26594160000002	</string>
+        </dict>
+    </array>
+    
+</dict>
+</plist>

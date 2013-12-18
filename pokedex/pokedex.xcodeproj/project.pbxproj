@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23A764BC184DD450006F12A3 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A764A9184DD450006F12A3 /* photo-frame.png */; };
+		23A764BD184DD450006F12A3 /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A764AA184DD450006F12A3 /* photo-frame@2x.png */; };
+		23A764D1184DE8C8006F12A3 /* splashbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A764CF184DE8C8006F12A3 /* splashbig.png */; };
+		23A764D2184DE8C8006F12A3 /* splashsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A764D0184DE8C8006F12A3 /* splashsmall.png */; };
+		23A764D4184DEBE4006F12A3 /* 4129-pokemon-pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A764D3184DEBE4006F12A3 /* 4129-pokemon-pokeball.png */; };
+		23A764DE184DF4AF006F12A3 /* bulbasaur6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764DD184DF4AF006F12A3 /* bulbasaur6.jpg */; };
+		23A764E0184DF7FF006F12A3 /* ivysaur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764DF184DF7FF006F12A3 /* ivysaur.jpg */; };
+		23A764E2184DF8E0006F12A3 /* venusaur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764E1184DF8E0006F12A3 /* venusaur.jpg */; };
+		23A764E9184DFB4A006F12A3 /* blastoise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764E3184DFB4A006F12A3 /* blastoise.jpg */; };
+		23A764EA184DFB4A006F12A3 /* charizard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764E4184DFB4A006F12A3 /* charizard.jpg */; };
+		23A764EB184DFB4A006F12A3 /* charmander.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764E5184DFB4A006F12A3 /* charmander.jpg */; };
+		23A764EC184DFB4A006F12A3 /* charmeleon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764E6184DFB4A006F12A3 /* charmeleon.jpg */; };
+		23A764ED184DFB4A006F12A3 /* squirtle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764E7184DFB4A006F12A3 /* squirtle.jpg */; };
+		23A764EE184DFB4A006F12A3 /* wartortle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A764E8184DFB4A006F12A3 /* wartortle.jpg */; };
+		23A764F1184DFEB8006F12A3 /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A764EF184DFEB8006F12A3 /* arrow-down.png */; };
+		23A764F2184DFEB8006F12A3 /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A764F0184DFEB8006F12A3 /* arrow_up.png */; };
+		23B7107C184DBAA90013AB6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7107B184DBAA90013AB6C /* UIKit.framework */; };
+		23B7107E184DBAA90013AB6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7107D184DBAA90013AB6C /* Foundation.framework */; };
+		23B71080184DBAA90013AB6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7107F184DBAA90013AB6C /* CoreGraphics.framework */; };
+		23B71086184DBAA90013AB6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23B71084184DBAA90013AB6C /* InfoPlist.strings */; };
+		23B71088184DBAA90013AB6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B71087184DBAA90013AB6C /* main.m */; };
+		23B7108C184DBAA90013AB6C /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B7108B184DBAA90013AB6C /* MADAppDelegate.m */; };
+		23B7108E184DBAA90013AB6C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B7108D184DBAA90013AB6C /* Default.png */; };
+		23B71090184DBAA90013AB6C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B7108F184DBAA90013AB6C /* Default@2x.png */; };
+		23B71092184DBAA90013AB6C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B71091184DBAA90013AB6C /* Default-568h@2x.png */; };
+		23B71098184DBAA90013AB6C /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B71097184DBAA90013AB6C /* MADViewController.m */; };
+		23B7109F184DBB0A0013AB6C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B7109E184DBB0A0013AB6C /* MainStoryboard.storyboard */; };
+		23B710A2184DBBA40013AB6C /* PokeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B710A1184DBBA40013AB6C /* PokeDetailViewController.m */; };
+		23B710A5184DBBE90013AB6C /* Pokemonobj.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B710A4184DBBE90013AB6C /* Pokemonobj.m */; };
+		23B710AD184DCF680013AB6C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B710AC184DCF680013AB6C /* GameViewController.m */; };
+		23D1D6D1184E1D3100398261 /* common_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D0184E1D3100398261 /* common_bg.png */; };
+		23D1D6D3184E1D3F00398261 /* common_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D2184E1D3F00398261 /* common_bg@2x.png */; };
+		23D1D6DA184E1E9700398261 /* cell_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D4184E1E9700398261 /* cell_bottom.png */; };
+		23D1D6DB184E1E9700398261 /* cell_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D5184E1E9700398261 /* cell_bottom@2x.png */; };
+		23D1D6DC184E1E9700398261 /* cell_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D6184E1E9700398261 /* cell_middle.png */; };
+		23D1D6DD184E1E9700398261 /* cell_middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D7184E1E9700398261 /* cell_middle@2x.png */; };
+		23D1D6DE184E1E9700398261 /* cell_top_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D8184E1E9700398261 /* cell_top_tile.png */; };
+		23D1D6DF184E1E9700398261 /* cell_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D1D6D9184E1E9700398261 /* cell_top.png */; };
+		23DDF13D1861F88F002EEFEA /* pin-map-icon-2-614x460-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF13C1861F88F002EEFEA /* pin-map-icon-2-614x460-1.png */; };
+		23DDF13F1861F99D002EEFEA /* pokeballsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF13E1861F99C002EEFEA /* pokeballsmall.png */; };
+		23DDF1411861F9A5002EEFEA /* pokeballlarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF1401861F9A5002EEFEA /* pokeballlarge.png */; };
+		23DDF1431861F9BC002EEFEA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DDF1421861F9BC002EEFEA /* MapKit.framework */; };
+		23DDF1451861F9D5002EEFEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DDF1441861F9D5002EEFEA /* CoreLocation.framework */; };
+		23DDF1481861FB43002EEFEA /* Map ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DDF1471861FB43002EEFEA /* Map ViewController.m */; };
+		23DDF14B1862026A002EEFEA /* MADAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DDF14A1862026A002EEFEA /* MADAnnotation.m */; };
+		23DDF14D18620764002EEFEA /* annotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF14C18620763002EEFEA /* annotations.plist */; };
+		23DDF14F18621C8F002EEFEA /* pokeballsmall2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DDF14E18621C8F002EEFEA /* pokeballsmall2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23A764A9184DD450006F12A3 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		23A764AA184DD450006F12A3 /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame@2x.png"; sourceTree = "<group>"; };
+		23A764CF184DE8C8006F12A3 /* splashbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashbig.png; sourceTree = "<group>"; };
+		23A764D0184DE8C8006F12A3 /* splashsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashsmall.png; sourceTree = "<group>"; };
+		23A764D3184DEBE4006F12A3 /* 4129-pokemon-pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4129-pokemon-pokeball.png"; sourceTree = "<group>"; };
+		23A764DD184DF4AF006F12A3 /* bulbasaur6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulbasaur6.jpg; sourceTree = "<group>"; };
+		23A764DF184DF7FF006F12A3 /* ivysaur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ivysaur.jpg; sourceTree = "<group>"; };
+		23A764E1184DF8E0006F12A3 /* venusaur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venusaur.jpg; sourceTree = "<group>"; };
+		23A764E3184DFB4A006F12A3 /* blastoise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blastoise.jpg; sourceTree = "<group>"; };
+		23A764E4184DFB4A006F12A3 /* charizard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charizard.jpg; sourceTree = "<group>"; };
+		23A764E5184DFB4A006F12A3 /* charmander.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charmander.jpg; sourceTree = "<group>"; };
+		23A764E6184DFB4A006F12A3 /* charmeleon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charmeleon.jpg; sourceTree = "<group>"; };
+		23A764E7184DFB4A006F12A3 /* squirtle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squirtle.jpg; sourceTree = "<group>"; };
+		23A764E8184DFB4A006F12A3 /* wartortle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wartortle.jpg; sourceTree = "<group>"; };
+		23A764EF184DFEB8006F12A3 /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		23A764F0184DFEB8006F12A3 /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_up.png; sourceTree = "<group>"; };
+		23B71078184DBAA90013AB6C /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B7107B184DBAA90013AB6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23B7107D184DBAA90013AB6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23B7107F184DBAA90013AB6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23B71083184DBAA90013AB6C /* pokedex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pokedex-Info.plist"; sourceTree = "<group>"; };
+		23B71085184DBAA90013AB6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23B71087184DBAA90013AB6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23B71089184DBAA90013AB6C /* pokedex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pokedex-Prefix.pch"; sourceTree = "<group>"; };
+		23B7108A184DBAA90013AB6C /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		23B7108B184DBAA90013AB6C /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		23B7108D184DBAA90013AB6C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		23B7108F184DBAA90013AB6C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		23B71091184DBAA90013AB6C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		23B71096184DBAA90013AB6C /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		23B71097184DBAA90013AB6C /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		23B7109E184DBB0A0013AB6C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		23B710A0184DBBA40013AB6C /* PokeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokeDetailViewController.h; sourceTree = "<group>"; };
+		23B710A1184DBBA40013AB6C /* PokeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokeDetailViewController.m; sourceTree = "<group>"; };
+		23B710A3184DBBE80013AB6C /* Pokemonobj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemonobj.h; sourceTree = "<group>"; };
+		23B710A4184DBBE90013AB6C /* Pokemonobj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemonobj.m; sourceTree = "<group>"; };
+		23B710AB184DCF680013AB6C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		23B710AC184DCF680013AB6C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		23D1D6D0184E1D3100398261 /* common_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_bg.png; sourceTree = "<group>"; };
+		23D1D6D2184E1D3F00398261 /* common_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_bg@2x.png"; sourceTree = "<group>"; };
+		23D1D6D4184E1E9700398261 /* cell_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_bottom.png; sourceTree = "<group>"; };
+		23D1D6D5184E1E9700398261 /* cell_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_bottom@2x.png"; sourceTree = "<group>"; };
+		23D1D6D6184E1E9700398261 /* cell_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_middle.png; sourceTree = "<group>"; };
+		23D1D6D7184E1E9700398261 /* cell_middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_middle@2x.png"; sourceTree = "<group>"; };
+		23D1D6D8184E1E9700398261 /* cell_top_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_top_tile.png; sourceTree = "<group>"; };
+		23D1D6D9184E1E9700398261 /* cell_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_top.png; sourceTree = "<group>"; };
+		23DDF13C1861F88F002EEFEA /* pin-map-icon-2-614x460-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-map-icon-2-614x460-1.png"; sourceTree = "<group>"; };
+		23DDF13E1861F99C002EEFEA /* pokeballsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pokeballsmall.png; path = ../pokeballsmall.png; sourceTree = "<group>"; };
+		23DDF1401861F9A5002EEFEA /* pokeballlarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pokeballlarge.png; path = ../pokeballlarge.png; sourceTree = "<group>"; };
+		23DDF1421861F9BC002EEFEA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		23DDF1441861F9D5002EEFEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23DDF1461861FB43002EEFEA /* Map ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Map ViewController.h"; sourceTree = "<group>"; };
+		23DDF1471861FB43002EEFEA /* Map ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Map ViewController.m"; sourceTree = "<group>"; };
+		23DDF1491862026A002EEFEA /* MADAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADAnnotation.h; sourceTree = "<group>"; };
+		23DDF14A1862026A002EEFEA /* MADAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADAnnotation.m; sourceTree = "<group>"; };
+		23DDF14C18620763002EEFEA /* annotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = annotations.plist; sourceTree = "<group>"; };
+		23DDF14E18621C8F002EEFEA /* pokeballsmall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokeballsmall2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B71075184DBAA90013AB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DDF1451861F9D5002EEFEA /* CoreLocation.framework in Frameworks */,
+				23DDF1431861F9BC002EEFEA /* MapKit.framework in Frameworks */,
+				23B7107C184DBAA90013AB6C /* UIKit.framework in Frameworks */,
+				23B7107E184DBAA90013AB6C /* Foundation.framework in Frameworks */,
+				23B71080184DBAA90013AB6C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B7106F184DBAA90013AB6C = {
+			isa = PBXGroup;
+			children = (
+				23DDF1441861F9D5002EEFEA /* CoreLocation.framework */,
+				23DDF1421861F9BC002EEFEA /* MapKit.framework */,
+				23B71081184DBAA90013AB6C /* pokedex */,
+				23B7107A184DBAA90013AB6C /* Frameworks */,
+				23B71079184DBAA90013AB6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B71079184DBAA90013AB6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B71078184DBAA90013AB6C /* pokedex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B7107A184DBAA90013AB6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23B7107B184DBAA90013AB6C /* UIKit.framework */,
+				23B7107D184DBAA90013AB6C /* Foundation.framework */,
+				23B7107F184DBAA90013AB6C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B71081184DBAA90013AB6C /* pokedex */ = {
+			isa = PBXGroup;
+			children = (
+				23B7108A184DBAA90013AB6C /* MADAppDelegate.h */,
+				23B7108B184DBAA90013AB6C /* MADAppDelegate.m */,
+				23B7109E184DBB0A0013AB6C /* MainStoryboard.storyboard */,
+				23DDF1461861FB43002EEFEA /* Map ViewController.h */,
+				23DDF1471861FB43002EEFEA /* Map ViewController.m */,
+				23DDF1491862026A002EEFEA /* MADAnnotation.h */,
+				23DDF14A1862026A002EEFEA /* MADAnnotation.m */,
+				23DDF14C18620763002EEFEA /* annotations.plist */,
+				23B71096184DBAA90013AB6C /* MADViewController.h */,
+				23B71097184DBAA90013AB6C /* MADViewController.m */,
+				23B710A0184DBBA40013AB6C /* PokeDetailViewController.h */,
+				23B710A1184DBBA40013AB6C /* PokeDetailViewController.m */,
+				23B710A3184DBBE80013AB6C /* Pokemonobj.h */,
+				23B710A4184DBBE90013AB6C /* Pokemonobj.m */,
+				23B710AB184DCF680013AB6C /* GameViewController.h */,
+				23B710AC184DCF680013AB6C /* GameViewController.m */,
+				23B71082184DBAA90013AB6C /* Supporting Files */,
+			);
+			path = pokedex;
+			sourceTree = "<group>";
+		};
+		23B71082184DBAA90013AB6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DDF14E18621C8F002EEFEA /* pokeballsmall2.png */,
+				23DDF1401861F9A5002EEFEA /* pokeballlarge.png */,
+				23DDF13E1861F99C002EEFEA /* pokeballsmall.png */,
+				23DDF13C1861F88F002EEFEA /* pin-map-icon-2-614x460-1.png */,
+				23D1D6D4184E1E9700398261 /* cell_bottom.png */,
+				23D1D6D5184E1E9700398261 /* cell_bottom@2x.png */,
+				23D1D6D6184E1E9700398261 /* cell_middle.png */,
+				23D1D6D7184E1E9700398261 /* cell_middle@2x.png */,
+				23D1D6D8184E1E9700398261 /* cell_top_tile.png */,
+				23D1D6D9184E1E9700398261 /* cell_top.png */,
+				23D1D6D2184E1D3F00398261 /* common_bg@2x.png */,
+				23D1D6D0184E1D3100398261 /* common_bg.png */,
+				23A764EF184DFEB8006F12A3 /* arrow-down.png */,
+				23A764F0184DFEB8006F12A3 /* arrow_up.png */,
+				23A764E3184DFB4A006F12A3 /* blastoise.jpg */,
+				23A764E4184DFB4A006F12A3 /* charizard.jpg */,
+				23A764E5184DFB4A006F12A3 /* charmander.jpg */,
+				23A764E6184DFB4A006F12A3 /* charmeleon.jpg */,
+				23A764E7184DFB4A006F12A3 /* squirtle.jpg */,
+				23A764E8184DFB4A006F12A3 /* wartortle.jpg */,
+				23A764E1184DF8E0006F12A3 /* venusaur.jpg */,
+				23A764DF184DF7FF006F12A3 /* ivysaur.jpg */,
+				23A764DD184DF4AF006F12A3 /* bulbasaur6.jpg */,
+				23A764D3184DEBE4006F12A3 /* 4129-pokemon-pokeball.png */,
+				23A764CF184DE8C8006F12A3 /* splashbig.png */,
+				23A764D0184DE8C8006F12A3 /* splashsmall.png */,
+				23A764A9184DD450006F12A3 /* photo-frame.png */,
+				23A764AA184DD450006F12A3 /* photo-frame@2x.png */,
+				23B71083184DBAA90013AB6C /* pokedex-Info.plist */,
+				23B71084184DBAA90013AB6C /* InfoPlist.strings */,
+				23B71087184DBAA90013AB6C /* main.m */,
+				23B71089184DBAA90013AB6C /* pokedex-Prefix.pch */,
+				23B7108D184DBAA90013AB6C /* Default.png */,
+				23B7108F184DBAA90013AB6C /* Default@2x.png */,
+				23B71091184DBAA90013AB6C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B71077184DBAA90013AB6C /* pokedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B7109B184DBAA90013AB6C /* Build configuration list for PBXNativeTarget "pokedex" */;
+			buildPhases = (
+				23B71074184DBAA90013AB6C /* Sources */,
+				23B71075184DBAA90013AB6C /* Frameworks */,
+				23B71076184DBAA90013AB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokedex;
+			productName = pokedex;
+			productReference = 23B71078184DBAA90013AB6C /* pokedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B71070184DBAA90013AB6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = steph;
+			};
+			buildConfigurationList = 23B71073184DBAA90013AB6C /* Build configuration list for PBXProject "pokedex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23B7106F184DBAA90013AB6C;
+			productRefGroup = 23B71079184DBAA90013AB6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B71077184DBAA90013AB6C /* pokedex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B71076184DBAA90013AB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B71086184DBAA90013AB6C /* InfoPlist.strings in Resources */,
+				23B7108E184DBAA90013AB6C /* Default.png in Resources */,
+				23B71090184DBAA90013AB6C /* Default@2x.png in Resources */,
+				23B71092184DBAA90013AB6C /* Default-568h@2x.png in Resources */,
+				23B7109F184DBB0A0013AB6C /* MainStoryboard.storyboard in Resources */,
+				23A764BC184DD450006F12A3 /* photo-frame.png in Resources */,
+				23A764BD184DD450006F12A3 /* photo-frame@2x.png in Resources */,
+				23A764D1184DE8C8006F12A3 /* splashbig.png in Resources */,
+				23A764D2184DE8C8006F12A3 /* splashsmall.png in Resources */,
+				23A764D4184DEBE4006F12A3 /* 4129-pokemon-pokeball.png in Resources */,
+				23A764DE184DF4AF006F12A3 /* bulbasaur6.jpg in Resources */,
+				23A764E0184DF7FF006F12A3 /* ivysaur.jpg in Resources */,
+				23A764E2184DF8E0006F12A3 /* venusaur.jpg in Resources */,
+				23A764E9184DFB4A006F12A3 /* blastoise.jpg in Resources */,
+				23A764EA184DFB4A006F12A3 /* charizard.jpg in Resources */,
+				23A764EB184DFB4A006F12A3 /* charmander.jpg in Resources */,
+				23A764EC184DFB4A006F12A3 /* charmeleon.jpg in Resources */,
+				23A764ED184DFB4A006F12A3 /* squirtle.jpg in Resources */,
+				23A764EE184DFB4A006F12A3 /* wartortle.jpg in Resources */,
+				23A764F1184DFEB8006F12A3 /* arrow-down.png in Resources */,
+				23A764F2184DFEB8006F12A3 /* arrow_up.png in Resources */,
+				23D1D6D1184E1D3100398261 /* common_bg.png in Resources */,
+				23D1D6D3184E1D3F00398261 /* common_bg@2x.png in Resources */,
+				23D1D6DA184E1E9700398261 /* cell_bottom.png in Resources */,
+				23D1D6DB184E1E9700398261 /* cell_bottom@2x.png in Resources */,
+				23D1D6DC184E1E9700398261 /* cell_middle.png in Resources */,
+				23D1D6DD184E1E9700398261 /* cell_middle@2x.png in Resources */,
+				23D1D6DE184E1E9700398261 /* cell_top_tile.png in Resources */,
+				23D1D6DF184E1E9700398261 /* cell_top.png in Resources */,
+				23DDF13D1861F88F002EEFEA /* pin-map-icon-2-614x460-1.png in Resources */,
+				23DDF13F1861F99D002EEFEA /* pokeballsmall.png in Resources */,
+				23DDF1411861F9A5002EEFEA /* pokeballlarge.png in Resources */,
+				23DDF14D18620764002EEFEA /* annotations.plist in Resources */,
+				23DDF14F18621C8F002EEFEA /* pokeballsmall2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B71074184DBAA90013AB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B71088184DBAA90013AB6C /* main.m in Sources */,
+				23B7108C184DBAA90013AB6C /* MADAppDelegate.m in Sources */,
+				23B71098184DBAA90013AB6C /* MADViewController.m in Sources */,
+				23B710A2184DBBA40013AB6C /* PokeDetailViewController.m in Sources */,
+				23B710A5184DBBE90013AB6C /* Pokemonobj.m in Sources */,
+				23B710AD184DCF680013AB6C /* GameViewController.m in Sources */,
+				23DDF1481861FB43002EEFEA /* Map ViewController.m in Sources */,
+				23DDF14B1862026A002EEFEA /* MADAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23B71084184DBAA90013AB6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B71085184DBAA90013AB6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B71099184DBAA90013AB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23B7109A184DBAA90013AB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23B7109C184DBAA90013AB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pokedex/pokedex-Prefix.pch";
+				INFOPLIST_FILE = "pokedex/pokedex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23B7109D184DBAA90013AB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pokedex/pokedex-Prefix.pch";
+				INFOPLIST_FILE = "pokedex/pokedex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B71073184DBAA90013AB6C /* Build configuration list for PBXProject "pokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B71099184DBAA90013AB6C /* Debug */,
+				23B7109A184DBAA90013AB6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B7109B184DBAA90013AB6C /* Build configuration list for PBXNativeTarget "pokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B7109C184DBAA90013AB6C /* Debug */,
+				23B7109D184DBAA90013AB6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B71070184DBAA90013AB6C /* Project object */;
+}
